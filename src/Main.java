@@ -3,5 +3,13 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hola :D");
+        resta(num1, num2);
     }
+
+    public static int resta(int a, int b) {
+    return a - b;
+
+
+    }
+
 }
