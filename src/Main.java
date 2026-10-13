@@ -11,8 +11,17 @@ public class Main {
         System.out.println("Dame otro numero");
         int num2 = sc.nextInt();
         suma(num1, num2);
+        resta(num1, num2);
+
     }
     public static int suma(int a, int b){
         return a + b;
     }
+
+    public static int resta(int a, int b) {
+    return a - b;
+
+
+    }
+
 }
